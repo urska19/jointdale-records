@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+
+@font-face {
+    font-family: 'Crackhouse';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Crackhouse'), url('../assets/fonts/font.woff') format('woff');
+}
+
+@tailwind utilities;

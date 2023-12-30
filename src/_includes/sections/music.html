@@ -1,0 +1,20 @@
+{% set title = 'BEATS' %}
+{% extends "../layouts/section.njk" %}
+{% block content %}
+
+{% set imageSource = '/assets/images/ep.jpeg' %}
+{% set imageAlt = 'Jointdale, Oscify - Good People' %}
+{% set songTitle = 'Good People' %}
+{% set ytSource = 'https://www.youtube.com/watch?v=Q2lgYQvTZHQ&list=PLCi6Z0mmlydE3x3xjGZgj-oiM34DfpCdI' %}
+{% set spotifySource = 'https://open.spotify.com/album/5PGkj5ZMNn9bjHkL1GUch2?si=MQlEutUiTtKmoQEkA_ALfA&nd=1' %}
+{% include '../partials/_music_card_first.njk' %}
+
+<div class="h-8 md:h-16"></div>
+
+{% set imageSource = '/assets/images/ren.png' %}
+{% set imageAlt = 'Ren remixes' %}
+{% set songTitle = 'Ren remixes' %}
+{% set ytSource = 'https://www.youtube.com/watch?v=eVODuXypxbk&list=PLCi6Z0mmlydEHn_xSLT0rGotyDwNNGvSS' %}
+{% include '../partials/_music_card_second.njk' %}
+
+{% endblock %}

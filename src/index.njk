@@ -1,0 +1,15 @@
+---
+layout: 'layouts/base.njk'
+url: 'home'
+---
+
+{% include 'sections/music.html' %}
+{% include 'sections/about.html' %}
+{% include 'sections/follow.njk' %}
+
+<div class="border-t-4 border-blue border-double"></div>
+
+{# last transparent image - parallax #}
+<div class="hidden md:block">
+    {% include 'partials/_header.njk' %}
+</div>
