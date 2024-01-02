@@ -4,13 +4,13 @@
 {% set hoverColorNav = 'text-blue' %}
 <!-- mobile nav -->
 <section class="md:hidden w-full fixed">
-    <input type="checkbox"id="icon" class="absolute top-6 right-6 cursor-pointer w-6 h-6 opacity-0 z-10 peer"/>
-    <div for="icon" class="bg-transparent px-6 py-8 text-blue peer-checked:hidden">
+    <input type="checkbox" id="icon" class="absolute top-6 right-6 cursor-pointer w-6 h-6 opacity-0 z-10 peer">
+    <div class="bg-transparent px-6 py-8 text-blue peer-checked:hidden">
         <div class="absolute top-6 right-6">
             <i class="fa-solid fa-bars fa-2xl"></i>
         </div>
     </div>
-    <div for="icon" class="flex-col py-8 px-8 bg-blue_shade hidden peer-checked:block">
+    <div class="flex-col py-8 px-8 bg-blue_shade hidden peer-checked:block">
         <div class="container mx-auto px-5 py-2 lg:px-32 pt-6 md:pt-10">
             <div class="font-light text-4xl mb-6">{{ title }}</div>
             <div class="border-t-4 border-blue border-double"></div>
